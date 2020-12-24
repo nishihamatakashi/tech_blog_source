@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy RemoteSigned .\deploy_git.ps1
