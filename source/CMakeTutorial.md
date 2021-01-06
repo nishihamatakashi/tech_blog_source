@@ -22,7 +22,6 @@ CMakeを使用してVisual Studioにおける，開発環境の構築をする�
 - Step8：コンパイラオプションの設定
 - Step9：サブプロジェクトの追加
 - Step10：CMakeファイルの分割
-- Step11：batファイルで自動化
 
 # Step1 HelloWorldプロジェクトの作成
 CMakeを利用して，cppのvsプロジェクトの作成，ビルドを行う．
@@ -984,6 +983,4 @@ include(${CMAKE_MODULE_DIR}/Common.cmake)
 setup_common()
 
 ```
-# Step11 batファイルで自動化
-今まで，実行してきたcmakeコマンドをCMakeListsと連携したbat(または，ps1)ファイルに記述し，実行するだけで開発環境が構築できるようにする．
 
